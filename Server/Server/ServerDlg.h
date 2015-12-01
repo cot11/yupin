@@ -20,6 +20,7 @@
 #define DB_NAME "yupin"
 #define DB_IDD "search5"
 #define DB_IDDD "search4"
+#define DB_IDDDD "search3"
 
 #if _MSC_VER > 1000
 #pragma once
@@ -66,6 +67,7 @@ public:
 	afx_msg void OnBnClickedOk();
 	afx_msg void OnBnClickedCancel();
 	static UINT Y_Thread(LPVOID pParam);
+	static UINT Y2_Thread(LPVOID pParam);
 	static UINT Keyword_Store(LPVOID pParam);
 	afx_msg void OnDrawItem(int nIDCtl, LPDRAWITEMSTRUCT lpDrawItemStruct);
 	CString m_Show_Data;

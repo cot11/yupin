@@ -1,0 +1,25 @@
+﻿빌드 시작: 2015-12-01 오후 5:39:31
+     1>2 노드의 "C:\Users\eoun\Documents\GitHub\yupin\Client\Client.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt AddressDlg.cpp ClientDlg.cpp
+         ClientDlg.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afx.h(33) : 'MBCS_Support_Deprecated_In_MFC' 선언을 참조하십시오.
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         코드를 생성하고 있습니다...
+         건너뛰고 있습니다... (관련된 변경 내용 없음)
+         AddressDlg.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\Client.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:".\Debug\Client.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\Client.lib" /MACHINE:X86 /SAFESEH .\Debug\Client.res
+         .\Debug\AddressDlg.obj
+         .\Debug\Client.obj
+         .\Debug\ClientDlg.obj
+         .\Debug\ClientSock.obj
+         .\Debug\Join_dialog.obj
+         .\Debug\StdAfx.obj
+         Client.vcxproj -> C:\Users\eoun\Documents\GitHub\yupin\Client\.\Debug\Client.exe
+     1>"C:\Users\eoun\Documents\GitHub\yupin\Client\Client.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:04.68

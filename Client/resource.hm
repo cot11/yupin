@@ -1,0 +1,8 @@
+// Microsoft Visual C++ generated Help ID include file.
+// Used by Client.rc
+//
+#define HIDC_STATIC_ID                  0x80810405    // IDD_DIALOG_ADDRESS
+#define HIDC_STATIC_INID                0x80810406    // IDD_DIALOG_ADDRESS
+#define HIDC_STATIC_INPWD               0x80810407    // IDD_DIALOG_ADDRESS
+#define HIDC_STATIC_PWD                 0x80810408    // IDD_DIALOG_ADDRESS
+#define HIDC_STATIC_USER                0x8081040a    // IDD_DIALOG_ADDRESS
