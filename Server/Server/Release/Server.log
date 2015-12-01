@@ -1,0 +1,23 @@
+﻿빌드 시작: 2015-11-21 오후 5:35:51
+     1>2 노드의 "C:\Users\eoun\Desktop\소공프로그램\Server\Server\Server.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\Server.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\Server.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ClientSock.cpp Login.cpp Server.cpp ServerDlg.cpp ServerSock.cpp TrayIconMng.cpp
+         ClientSock.cpp
+     1>c:\users\eoun\desktop\소공프로그램\server\server\ServerDlg.h(6): fatal error C1083: 포함 파일을 열 수 없습니다. 'mysql.h': No such file or directory
+         Login.cpp
+         Server.cpp
+     1>c:\users\eoun\desktop\소공프로그램\server\server\ServerDlg.h(6): fatal error C1083: 포함 파일을 열 수 없습니다. 'mysql.h': No such file or directory
+         ServerDlg.cpp
+     1>c:\users\eoun\desktop\소공프로그램\server\server\ServerDlg.h(6): fatal error C1083: 포함 파일을 열 수 없습니다. 'mysql.h': No such file or directory
+         ServerSock.cpp
+     1>c:\users\eoun\desktop\소공프로그램\server\server\ServerDlg.h(6): fatal error C1083: 포함 파일을 열 수 없습니다. 'mysql.h': No such file or directory
+         TrayIconMng.cpp
+     1>TrayIconMng.cpp(59): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 'sprintf' 선언을 참조하십시오.
+     1>"C:\Users\eoun\Desktop\소공프로그램\Server\Server\Server.vcxproj" 프로젝트를 빌드했습니다(Build 대상). - 실패
+
+빌드하지 못했습니다.
+
+경과 시간: 00:00:03.38
